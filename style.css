@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#outer-space {
+  width: 100%;
+  height: 100vh;
+  background: black;
+  overflow: hidden;
+  position: relative;
+}
+
+.star {
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+
+}
+.small-star {
+  width: 1px;
+  height: 1px;
+
+}
